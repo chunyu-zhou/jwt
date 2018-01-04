@@ -7,7 +7,7 @@
             "name": "ChunYu",
             "email": "admin@zcyso.com",
             "role": "Developer"
-        },
+        }
     ],
     "license": "BSD-3-Clause",
     "require": {
