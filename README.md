@@ -16,7 +16,7 @@ Example
 -------
 ```php
 <?php
-use \Firebase\JWT\JWT;
+use \Chunyu\JWT\JWT;
 
 $key = "example_key";
 $token = array(
@@ -60,7 +60,7 @@ Example with RS256 (openssl)
 ----------------------------
 ```php
 <?php
-use \Firebase\JWT\JWT;
+use \Chunyu\JWT\JWT;
 
 $privateKey = <<<EOD
 -----BEGIN RSA PRIVATE KEY-----
