@@ -114,7 +114,7 @@ class JWT
             static::ReturnJson('Expired token');
         }
 
-        static::ReturnJson('',['data'=>$payload],200);
+        return $payload;
     }
 
     /**
